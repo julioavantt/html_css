@@ -1,0 +1,77 @@
+* {
+ margin: 0;
+ font-family: sans-serif;
+}
+
+header {
+ background-color: #5c0000;
+ color: white;
+ padding: 20px;
+ font-size: 2rem;
+}
+
+header .brand {
+ display: inline-block;
+}
+
+header nav {
+ float: right;
+}
+
+header nav ul {
+ padding: 0;
+}
+
+header nav ul li {
+ list-style: none;
+ display: inline-block;
+}
+
+header nav ul li a {
+ color: white;
+}
+
+.container {
+ width: 1366px;
+ margin: auto;
+}
+
+main {
+ margin-top: 3rem;
+}
+
+main h1 {
+ font-family: sans-serif;
+ font-size: 3rem;
+}
+
+main label {
+ display: block;
+ font-size: 1.5rem;
+ font-family: sans-serif;
+ margin: 15px 0;
+}
+
+input,
+textarea {
+ width: 100%;
+ border: 1px solid #333;
+ padding: 1rem;
+ border-radius: 8px;
+}
+
+textarea {
+ height: auto;
+ min-height: 300px;
+}
+
+button {
+ border: 0;
+ border-radius: 8px;
+ color: white;
+ font-size: 1.5rem;
+ padding: 10px 30px;
+ color: white;
+ background: lightblue;
+ margin-top: 20px;
+}
